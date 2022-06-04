@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - main - Print combinations of two two-digit numbers
+ * main - Print combinations of two two-digit numbers
  *
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  *
  */
 int main(void)
@@ -23,21 +23,21 @@ int main(void)
 		putchar(b);
 		putchar(' ');
 		putchar(c);
-	        putchar(d);
+		putchar(d);
 		if (a + b + c + d == 227 && a == 57)
-	        {
+		{
 		break;
 		}
 		else
 		{
 		putchar(',');
-                putchar(' ');
+		putchar(' ');
 		}
 		}
-        } 
-        } 
-        }
 	}
-        putchar('\n');
-        return (0);
-}	
+ 	}
+	}
+	}
+	putchar('\n');
+	return (0);
+}
