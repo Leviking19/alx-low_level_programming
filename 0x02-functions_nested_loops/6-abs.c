@@ -2,7 +2,7 @@
 
 /**
  * _abs - Computes the absolute value of an integer.
- * @c: The number to be computed.
+ * @i: input number as an integer
  *
  * Description: function that computes the absolute value of an integer.
  *
