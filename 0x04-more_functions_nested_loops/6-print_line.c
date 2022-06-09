@@ -16,7 +16,7 @@ void print_line(int n)
 			_putchar (95);
 		}
 		_putchar ('\n'); /*New line*/
-	}/*End IF*/
+	} /*End IF*/
 	else
 	{
 		_putchar ('\n'); /*New line*/
