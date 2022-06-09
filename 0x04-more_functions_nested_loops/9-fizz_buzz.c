@@ -8,6 +8,7 @@ int main(void)
 {
 	int n = 100; /*Delcaring statements*/
 	int i;
+
 	i = 1;
 	while (i <= n) /*Start While*/
 	{
