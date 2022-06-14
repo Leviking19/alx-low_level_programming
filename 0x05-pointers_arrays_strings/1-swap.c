@@ -6,7 +6,7 @@
  * @m: M pointer to an int that will be updated
  * Return: void
  */
-void swap_int(int *a, int *b)
+void swap_int(int *l, int *m)
 {
 	int z; /*Declaring variables*/
 
