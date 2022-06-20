@@ -11,10 +11,10 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	unsigned int t;
 
 	t = 0;
-	while (x < n)  /*Declaration for WHILE statement*/
+	while (t < n)  /*Declaration for WHILE statement*/
 	{
-		*(dest + x) = *(src + x); /*add 1 position dest and src*/
-		x++;
+		*(dest + t) = *(src + t); /*add 1 position dest and src*/
+		t++;
 	} /*END WHILE*/
 	return (dest);
 }
