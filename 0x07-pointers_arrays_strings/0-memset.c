@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 	/*Declaration for the FOR loop statement*/
 	for (t = 0; t < n; t++)
 	{
-		*(s + y) = b; /*add 1 position s*/
+		*(s + t) = b; /*add 1 position s*/
 	} /*END FOR*/
 	return (s);
 }
