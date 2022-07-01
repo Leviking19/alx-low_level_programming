@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * string_nconcat - concatenates two strings.
- * @s1: first string.
- * @s1: first string.
+ * @s1: string to append to
+ * @s2: string to concatenate from
  * @n: amount of bytes.
  * Return: pointer to the allocated memory.
  * if malloc fails, status value is equal to 98.
