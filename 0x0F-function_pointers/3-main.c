@@ -27,9 +27,12 @@ int main(int argc, char *argv[])
 	if (operation == NULL)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
 
-	printf("%d\n", operation(atoi(argv[1]), atoi(argv[3])));
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+
+	printf("%d\n", operation(a, b));
 	return (0);
 }
