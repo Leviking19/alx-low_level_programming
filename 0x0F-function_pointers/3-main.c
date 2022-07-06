@@ -30,9 +30,6 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
-
-	printf("%d\n", operation(a, b));
+	printf("%d\n", operation(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
